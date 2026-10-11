@@ -82,6 +82,12 @@ a.promo:hover h3{color:var(--madera)}
 .sello{position:absolute;top:16px;right:16px;background:var(--madera);color:var(--sobre-madera);padding:12px 16px;display:grid;gap:2px;text-align:right}
 .sello small{font-family:var(--dato);font-size:11px;letter-spacing:.1em;text-transform:uppercase;opacity:.85}
 .sello b{font-family:var(--display);font-size:28px;line-height:1}
+.portada-hero{padding-block:56px 48px}
+.home-highlights{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));margin:0 0 28px;background:var(--papel);border:1px solid var(--linea)}
+.home-highlights>div{padding:18px 22px;display:grid;gap:4px;border-right:1px solid var(--linea)}
+.home-highlights>div:last-child{border-right:0}
+.home-highlights dt{font-family:var(--dato);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--gris)}
+.home-highlights dd{margin:0;font-family:var(--display);font-size:19px;font-weight:600}
 .botones{display:flex;gap:12px;flex-wrap:wrap}
 .prioridad{font-size:15px;border-left:3px solid var(--madera);padding:4px 0 4px 12px;max-width:60ch}
 
@@ -268,6 +274,10 @@ footer{padding-block:28px;font-size:13px;color:var(--gris);display:grid;gap:8px}
   .hero,.ubica,.cgrid,.videos,.videos.v3,.valor,.calc,.ad{grid-template-columns:1fr}
   .hero{padding-block:20px 36px}
   .hero figure{order:-1}
+  .portada-hero{padding-block:20px 32px}
+  .home-highlights{grid-template-columns:1fr;margin-bottom:12px}
+  .home-highlights>div{padding:12px 16px;border-right:0;border-bottom:1px solid var(--linea)}
+  .home-highlights>div:last-child{border-bottom:0}
   .unidades,.calidades{grid-template-columns:1fr}
   .ventajas{grid-template-columns:1fr 1fr}
   .datos{grid-template-columns:1fr 1fr}
